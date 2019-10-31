@@ -1,8 +1,7 @@
 //Neha Singh 6:39 monday 28 october, 2019
 //Given a string,s , consisting of alphabets and digits, find the frequency of each digit in the given string.
 
-#include<stdio.h>
-#include<strings.h>
+
 
 int main(){
     char s[1000];
