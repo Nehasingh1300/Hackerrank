@@ -1,0 +1,25 @@
+
+
+//Complete the following function.
+
+int marks_summation(int* marks, int number_of_students, char gender) {
+  //Write your code here.
+  int sum=0;
+  int i=0;
+  if(gender == 'g'){
+      do{
+        sum = sum + marks[i+1];
+        i++;
+        i++;
+      }while(i<number_of_students);
+  }
+  else if(gender == 'b'){
+       do{
+        sum = sum + marks[i];
+        i++;
+        i++;
+      }while(i<number_of_students);
+  }
+  return sum;
+}
+
